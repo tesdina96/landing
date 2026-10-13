@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8e9e4">
+  <title>A Little Hello 💋</title>
+  <meta name="description" content="A little hello, just for you.">
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 24px 16px;
+      display: grid;
+      place-items: center;
+      font-family: Arial, sans-serif;
+      color: #4a292d;
+      background: linear-gradient(145deg, #fff7f2, #f3d9d8);
+    }
+
+    .card {
+      width: 100%;
+      max-width: 390px;
+      padding: 14px;
+      border-radius: 25px;
+      background: rgba(255, 250, 248, 0.96);
+      box-shadow: 0 15px 45px rgba(100, 45, 55, 0.13);
+      text-align: center;
+    }
+
+    .portrait {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-height: 470px;
+      object-fit: cover;
+      aspect-ratio: 4 / 5;
+      border-radius: 17px;
+      background: #f0d8d3;
+    }
+
+    .eyebrow {
+      margin: 22px 0 8px;
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #b16c7c;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(27px, 7vw, 34px);
+      line-height: 1.15;
+    }
+
+    .intro {
+      margin: 0 auto 22px;
+      max-width: 290px;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #795a60;
+    }
+
+    .cta {
+      display: block;
+      width: 100%;
+      padding: 17px 12px;
+      border-radius: 999px;
+      background: #c65b75;
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bold;
+      letter-spacing: .4px;
+      transition: transform .15s ease;
+    }
+
+    .cta:active { transform: scale(.98); }
+
+    .note {
+      margin: 14px 0 8px;
+      font-size: 11px;
+      line-height: 1.5;
+      color: #98777b;
+    }
+
+    footer {
+      margin-top: 22px;
+      font-size: 11px;
+      color: #98777b;
+    }
+
+    footer a {
+      color: inherit;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    <!-- Replace portrait.jpg with your own photo filename -->
+    <img
+      class="portrait"
+      src="portrait.jpg"
+      alt="My photo"
+    >
+
+    <p class="eyebrow">A little hello ❤️</p>
+    <h1>Hey, you found me… 💋</h1>
+
+    <p class="intro">
+      A little curious about me? 😉<br>
+      You're in the right place.
+    </p>
+
+    <!-- Replace the URL below with your registration page -->
+    <a
+      class="cta"
+      href="https://YOUR-REGISTRATION-URL.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      💕 CONTINUE HERE
+    </a>
+
+    <p class="note">
+      You'll continue to the registration website.
+    </p>
+
+    <footer>
+      <a href="https://YOUR-REGISTRATION-URL.com/">
+        Open registration website
+      </a>
+    </footer>
+  </main>
+</body>
+</html>
